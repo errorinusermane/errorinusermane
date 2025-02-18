@@ -1,16 +1,29 @@
-## Hi there 👋
+# 👋 소개
+안녕하세요! 저는 **경영/경제 전공**으로 데이터 분석에서 시작하여 **머신러닝과 딥러닝**을 공부하다가, 점점 **데이터와 서버, 웹 개발** 쪽으로 관심을 넓혀왔습니다. 현재는 서버에서 동작하는 모든 종류의 개발을 목표로 하고 있으며, 최근에는 **블록체인 개발**에도 흥미를 가지고 있습니다.
 
-<!--
-**errorinusermane/errorinusermane** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 💼 프로젝트 경험
+### 🏛 **대학교 개발 동아리 프로젝트 - 중고 거래 웹사이트**
+- 기술 스택: **Spring Boot, MySQL, React**
+- 역할: 백엔드 개발
+- 담당 빌드: 게시글 CRUD, 좋아요, 북마크 기능, 서버 배포 및 서버 관리
+- API 명세서 작성 및 RESTful API 설계
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔍 **NLP 기반 문서 분석 프로젝트**
+- **Upstage API** 활용하여 문서 파싱, 임베딩, 챗봇 모델 개발
+- 다양한 **prompting 기법** 실험 (RAG, ReAct, Chain of Code 등)
+
+### 📱 **Flutter 기반 건강 관리 앱 개발**
+- 개인 프로젝트로 진행
+- Firebase를 활용한 **사용자 데이터 저장 및 관리**
+- Flutter를 활용한 **drag & drop 미니 게임** 기능
+- Gemini API를 활용한 **운동 추천 AI 기능** 개발
+
+---
+
+## 📬 연락처
+- **이메일**: ewhanthbeot@ewhain.net
+- **블로그**: https://blog.naver.com/ewhanthbeot 개발 및 데이터 분석 관련 내용 정리
+
+📌 관심 분야가 비슷하거나 협업을 원하신다면 언제든지 연락 주세요!

@@ -1,37 +1,97 @@
-# 👋 소개
-안녕하세요! 임수지입니다.
-- 이화여자대학교 **경영/경제/통계 전공**으로 데이터 분석에서 시작하여 **머신러닝과 딥러닝**을 공부하다가, 
-- 점점 **데이터와 서버, 웹 개발** 쪽으로 관심을 넓혀왔습니다. 
-- 현재는 웹 개발뿐만 아니라 서버 자체의 동작 원리와 인프라, 통계 및 데이터베이스 같은 근원적인 개념을 이해하는 것에 중점을 두고 있으며
-- 최근에는 **블록체인 개발**에도 흥미를 가지고 있습니다.
+# 🌐 Susie — Connecting Ideas, Expanding Systems
 
-##
-🐣 코딩으로 **귀엽고 참신한 세상**을 만들고 싶습니다.
+Hi there! I'm Susie — I turn scattered ideas into systems that scale.
+
+I don’t just build things — I **expand them**.  
+From AI to blockchain, from backend systems to mobile UX, I explore how different layers come together to create meaningful products.  
+Whether it’s crafting an experience or designing a system, I enjoy the full cycle: **think → build → iterate → scale**.
 
 ---
 
-## 💼 프로젝트 경험
-### 🏛 **오이마켓 - 중고 거래 웹사이트**
-- 기술 스택: **Spring Boot, MySQL**
-- 역할: 백엔드 개발
-- 담당 빌드: API 명세서 작성, 게시글 CRUD, 좋아요, 북마크 기능, 서버 배포 및 서버 관리
+### 📅 Calendar-Bot — Crypto Unlock Strategy Trading Bot  
+**Tech**: Python · Binance API · Backtesting · Pandas  
+Developed a short strategy bot that:
+- 📉 Tracks token unlock dates
+- 📊 Analyzes price/volume trends pre- and post-event
+- ⚙️ Applies filters & exit logic via minute-level backtests
 
-### 🔍 **NLP 기반 문서 분석 프로젝트**
-- 이화여자대학교 인공지능대학 인공지능학과 자연어처리(NLP) 수업 팀 프로젝트
-- **Upstage API** 활용하여 문서 파싱, 임베딩, 챗봇 모델 개발
-- 담당 빌드: 문서 파싱 방식 실험, prompting 기법 실험, 챗봇 빌드 시 외부 문서(wiki api)와 연결, 챗봇 모델의 RAG 방식 통합
-
-### 📱 **what to eat? - 건강 관리 앱**
-- 개인 프로젝트로 진행
-- Firebase를 활용한 **사용자 데이터 저장 및 관리**
-- Flutter를 활용한 **drag & drop 미니 게임** 기능
-- Gemini API를 활용한 **운동 추천 AI 기능** 개발
+> 🎯 Focused on strategy validation & automation. Designed a modular structure for token-specific parameters & future live trading.
 
 ---
 
-## 📬 연락처
-- **이메일**: ewhanthbeot@ewhain.net
-- **블로그**: https://blog.naver.com/ewhanthbeot 개발 및 데이터 분석 관련 내용 정리
+## 🚀 Highlight Projects
 
-##
-📌 관심 분야가 비슷하거나 협업을 원하신다면 언제든지 연락 주세요!
+### 🎬 Netflix Clone — Full-Stack Streaming Platform  
+**Tech**: Spring Boot · MySQL · React · AWS · JWT · REST API  
+Built a complete Netflix-style platform with:
+- 🔐 Auth system using JWT & Magic Link (no social login)
+- 🎥 Secure video streaming & plan-based content access
+- 📌 Features like watch history, bookmarks, likes, and continue watching
+- 📊 Admin-level content control (with future expandability in mind)
+
+> 📌 Emphasized API design, content access logic, and component reuse.  
+> Managed state using DTO hierarchy (`Movie`, `MovieSummary`, `MovieDetail`) and handled real-time sync across pages.
+
+---
+
+### 🐱 Flutter Diary App — Local UX-Driven Mobile App  
+**Tech**: Flutter · SharedPreferences · Custom Themes  
+Created a simple yet personal diary app with:
+- 🌙 Dark/light theme toggle
+- 🔒 Custom app lock screen
+- 🐾 Emoji-based mood tagging
+- 📆 Calendar modal view
+
+> 💡 Explored delightful micro-interactions and state persistence without Firebase.
+
+---
+
+### 🔗 Fundit — Web3 Insurance Auction Platform  
+**Tech**: Solidity · Hardhat · Next.js · Viem · Smart Contract Integration  
+A decentralized application where users bid for coverage:
+- 🛡 Smart contract logic for bidding & policy selection
+- 🌐 Frontend integration with viem (Ethers.js)
+- 📁 Real-world use case for blockchain beyond NFTs
+
+> 🚀 Showcased full-stack dApp development from contract to UI.
+
+---
+
+## 🛠 My Toolbelt
+
+| Category        | Tools & Tech                     |
+|-----------------|----------------------------------|
+| **Backend**     | Spring Boot · FastAPI · MySQL · Redis |
+| **DevOps**      | AWS · EC2 · S3 · Elastic Beanstalk |
+| **Blockchain**  | Solidity · Hardhat · Base Chain  |
+| **ML/NLP**      | PyTorch · Scikit-learn · OpenAI APIs |
+
+---
+
+## 🧠 About Me
+
+- 📚 Business + Economics + Statistics triple-track major
+- 🔄 I enjoy building tools that **bridge analysis and execution**
+- 🧠 I think like a strategist, code like a builder, and learn like a kid
+- 💼 Currently working as a **blockchain quant developer (part-time)**
+
+---
+
+## 🔭 I’m Exploring
+
+- How LLMs can supercharge user workflows and idea validation
+- New forms of collective finance (dApps, crypto insurance)
+- Developer tools that are minimal yet expressive
+
+---
+
+## ☕ Let’s Connect
+
+If you're into:
+- weird but useful product ideas,
+- thoughtful full-stack systems,
+- or just want to ship side projects together
+- **DM me or check out my repos!**
+
+- **e-mail**: ewhanthbeot@ewhain.net
+- **blog**: https://blog.naver.com/ewhanthbeot

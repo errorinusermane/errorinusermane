@@ -1,4 +1,4 @@
-# 🌐 Susie — Connecting Ideas, Expanding Systems
+# 🌐 Connecting Ideas, Expanding Systems
 
 Hi there! I'm Susie — I turn scattered ideas into systems that scale.
 

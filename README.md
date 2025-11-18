@@ -1,97 +1,52 @@
-# 🌐 Connecting Ideas, Expanding Systems
+# 클라우드 & 백엔드 엔지니어 (AWS)
+백엔드 시스템, 서버리스 구조, 풀스택 제품을 만드는 개발자입니다.
+클라우드·데이터·스마트컨트랙트·앱 개발 경험을 모두 갖고 있습니다.
 
-Hi there! I'm Susie — I turn scattered ideas into systems that scale.
+# 경력 요약
+클라우드: AWS EB, Lambda, RDS, DynamoDB, S3, Route53
+백엔드: Node.js, Express, DB 모델링
+풀스택: React, React Native
+Web3: Solidity, Hardhat
+데이터/ML: Python, R, RAG, LoRA, 자동매매 봇
 
-I don’t just build things — I **expand them**.  
-From AI to blockchain, from backend systems to mobile UX, I explore how different layers come together to create meaningful products.  
-Whether it’s crafting an experience or designing a system, I enjoy the full cycle: **think → build → iterate → scale**.
+# 프로젝트 / 맡은 역할
+ProofIN (2025) — Lambda 서버리스 + DynamoDB + 컨트랙트 + RN/웹 + 백엔드
+Fundit (2025) — 보험 크라우드펀딩 DApp, 전 스택 담당
+Blockwave 퀀트 개발자 (2025) — 언락 캘린더 숏 전략 봇 개발
+Netflix 클론 (2025) — 백엔드·프론트·AWS 배포 전체
+NLP RAG 챗봇 (2024) — 임베딩·위키 파싱·retrieval
+오이마켓 (2024) — CRUD + EB/RDS/S3 배포
+데이터 분석(2022–2023) — VECM·SCM 정책 효과 분석·QGIS 최적 입지
+강의/세미나(2021–2023) — 국어 강사, R 데이터 분석 수업
 
----
+# 연락처
+모든 연락 환영합니다.
+이메일: susie.djqan@gmail.com
 
-### 📅 Calendar-Bot — Crypto Unlock Strategy Trading Bot  
-**Tech**: Python · Binance API · Backtesting · Pandas  
-Developed a short strategy bot that:
-- 📉 Tracks token unlock dates
-- 📊 Analyzes price/volume trends pre- and post-event
-- ⚙️ Applies filters & exit logic via minute-level backtests
+# ======================================================== #
 
-> 🎯 Focused on strategy validation & automation. Designed a modular structure for token-specific parameters & future live trading.
+# Cloud & Backend Engineer
+I build backend systems, serverless architectures, and full-stack products.
+My experience spans cloud, data, smart contracts, and real-world app development.
 
----
+# Experience Highlights
+Backend & Cloud: AWS EB, Lambda, RDS, DynamoDB, S3, Route53
+Full-stack: Node.js, Express, React, React Native
+Web3: Solidity, Hardhat, on-chain backend integration
+Data/ML: Python, R, RAG, LoRA, time-series trading bots
 
-## 🚀 Highlight Projects
+# Projects / Roles
+ProofIN (2025) — Serverless app (Lambda+DynamoDB), contracts, backend, mobile, web
+Fundit (2025) — Web3 insurance crowdfunding (contracts + backend + RN app)
+Quant Developer @ Blockwave (2025) — Unlock calendar short-strategy bot
+Netflix Clone (2025) — Full-stack + AWS deployment
+NLP Chatbot (2024) — RAG pipeline, embeddings, prompt optimization
+OIMarket (2024) — First backend project (CRUD + full AWS deploy)
+Data Projects (2022–2023) — VECM macro analysis, SCM policy research, QGIS optimization
+Teaching & Research (2021–2023) — Korean instructor, R data analysis class
 
-### 🎬 Netflix Clone — Full-Stack Streaming Platform  
-**Tech**: Spring Boot · MySQL · React · AWS · JWT · REST API  
-Built a complete Netflix-style platform with:
-- 🔐 Auth system using JWT & Magic Link (no social login)
-- 🎥 Secure video streaming & plan-based content access
-- 📌 Features like watch history, bookmarks, likes, and continue watching
-- 📊 Admin-level content control (with future expandability in mind)
+# Contact
+Open to all opportunities and conversations.
+email: susie.djqan@gmail.com
 
-> 📌 Emphasized API design, content access logic, and component reuse.  
-> Managed state using DTO hierarchy (`Movie`, `MovieSummary`, `MovieDetail`) and handled real-time sync across pages.
 
----
-
-### 🐱 Flutter Diary App — Local UX-Driven Mobile App  
-**Tech**: Flutter · SharedPreferences · Custom Themes  
-Created a simple yet personal diary app with:
-- 🌙 Dark/light theme toggle
-- 🔒 Custom app lock screen
-- 🐾 Emoji-based mood tagging
-- 📆 Calendar modal view
-
-> 💡 Explored delightful micro-interactions and state persistence without Firebase.
-
----
-
-### 🔗 Fundit — Web3 Insurance Auction Platform  
-**Tech**: Solidity · Hardhat · Next.js · Viem · Smart Contract Integration  
-A decentralized application where users bid for coverage:
-- 🛡 Smart contract logic for bidding & policy selection
-- 🌐 Frontend integration with viem (Ethers.js)
-- 📁 Real-world use case for blockchain beyond NFTs
-
-> 🚀 Showcased full-stack dApp development from contract to UI.
-
----
-
-## 🛠 My Toolbelt
-
-| Category        | Tools & Tech                     |
-|-----------------|----------------------------------|
-| **Backend**     | Spring Boot · FastAPI · MySQL · Redis |
-| **DevOps**      | AWS · EC2 · S3 · Elastic Beanstalk |
-| **Blockchain**  | Solidity · Hardhat · Base Chain  |
-| **ML/NLP**      | PyTorch · Scikit-learn · OpenAI APIs |
-
----
-
-## 🧠 About Me
-
-- 📚 Business + Economics + Statistics triple-track major
-- 🔄 I enjoy building tools that **bridge analysis and execution**
-- 🧠 I think like a strategist, code like a builder, and learn like a kid
-- 💼 Currently working as a **blockchain quant developer (part-time)**
-
----
-
-## 🔭 I’m Exploring
-
-- How LLMs can supercharge user workflows and idea validation
-- New forms of collective finance (dApps, crypto insurance)
-- Developer tools that are minimal yet expressive
-
----
-
-## ☕ Let’s Connect
-
-If you're into:
-- weird but useful product ideas,
-- thoughtful full-stack systems,
-- or just want to ship side projects together
-- **DM me or check out my repos!**
-
-- **e-mail**: ewhanthbeot@ewhain.net
-- **blog**: https://blog.naver.com/ewhanthbeot

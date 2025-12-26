@@ -1,7 +1,7 @@
 # 클라우드 & 백엔드 엔지니어
 
 클라우드와 백엔드를 중심으로,
-서비스가 실제로 운영되도록 구조를 설계하는 개발자입니다.
+서비스가 실제로 운영되도록 구조를 설계하는 개발자입니다.<br>
 기술 구현보다 먼저, 서비스와 운영 관점에서 시스템을 고민합니다.
 
 ---
@@ -38,7 +38,7 @@
 
 # Cloud & Backend Engineer
 
-Cloud & Backend Engineer focused on building systems that actually run in production.
+Cloud & Backend Engineer focused on building systems that actually run in production.<br>
 I design backend and cloud architectures with service operation and long-term scalability in mind.
 
 ---

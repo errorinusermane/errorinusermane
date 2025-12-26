@@ -1,7 +1,8 @@
 # 클라우드 & 백엔드 엔지니어
 
-백엔드 시스템, 서버리스 구조, 풀스택 제품을 만드는 개발자입니다.
-클라우드·데이터·스마트컨트랙트·앱 개발 경험을 모두 갖고 있습니다.
+클라우드와 백엔드를 중심으로,
+서비스가 실제로 운영되도록 구조를 설계하는 개발자입니다.
+기술 구현보다 먼저, 서비스와 운영 관점에서 시스템을 고민합니다.
 
 ---
 
@@ -37,8 +38,8 @@
 
 # Cloud & Backend Engineer
 
-I build backend systems, serverless architectures, and full-stack products.
-My experience spans cloud, data, smart contracts, and real-world app development.
+Cloud & Backend Engineer focused on building systems that actually run in production.
+I design backend and cloud architectures with service operation and long-term scalability in mind.
 
 ---
 

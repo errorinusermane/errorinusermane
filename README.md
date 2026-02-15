@@ -44,9 +44,7 @@ Supporting projects:
 - **Data Analysis (2022–2023)** — Policy impact studies using VECM/SCM and QGIS optimal location scoring.
 - **Teaching (2021–2023)** — Korean language instruction and hands-on R data analysis workshops.
 
-Full problem definitions, solutions, architectures, impacts, and data validations → [Portfolio](https://your-notion-portfolio-link)
-
-Full project deep dives, architecture diagrams, metrics, and data validation in my [Portfolio](https://susieim.notion.site/Hi-I-m-Susie-2fb97e8748ae807a8cb0e763f2310b69).
+Full problem definitions, solutions, architectures, impacts, and data validations in my [Portfolio](https://susieim.notion.site/Hi-I-m-Susie-2fb97e8748ae807a8cb0e763f2310b69).
 
 ---
 

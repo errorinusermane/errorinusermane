@@ -22,32 +22,29 @@
 ---
 
 ### 🌟 My Evolution & Key Projects
-
-From data-driven analysis to production-grade serverless systems:
-
-- **ProofIN (2025)**  
-  Lambda serverless + DynamoDB + smart contract integration + RN/web frontend + full backend. A connected, real-time system launch.
+From full-stack Web3 experiments to refined serverless SaaS launches, each project evolves toward faster, cheaper, more secure, and truly validated problem-solving:
 
 - **Fundit (2025)**  
-  Insurance crowdfunding DApp — full-stack responsibility (backend, smart contracts, frontend).
+  Built a Web3 insurance crowdfunding DApp where users propose policies and providers bid in auctions, automating transparent contracts and rewards (full-stack, Node + EC2 + Solidity).
 
-- **Blockwave Quant Developer (2025)**  
-  Developed unlock calendar short strategy bot — real-time data processing & automation.
+- **ProofIN (2025)**  
+  Created a tamper-proof rental damage assessment DApp using NFTs for immutable records, AI-assisted detection, and strict on/off-chain separation for maximum cost efficiency (Node + Lambda serverless).
 
-- **Netflix Clone (2025)**  
-  End-to-end: backend + frontend + complete AWS deployment (Lambda, RDS, S3, etc.).
+- **SyncMe (2025)**  
+  Developed a simple web mood-tracker with instant character rewards and social sharing, focusing on serverless backend speed and cost control (Java + Lambda + CI/CD).
 
-- **NLP RAG Chatbot (2024)**  
-  Embedding + wiki parsing + retrieval pipeline for intelligent Q&A.
+- **Chronos (Ongoing)**  
+  Launched a secure, local browser-based file converter that eliminates uploads, ads, and decisions, validated end-to-end with full server + client dashboards (Node + Lambda + OIDC).
 
-- **OI Market (2024)**  
-  CRUD application with Elastic Beanstalk / RDS / S3 deployment.
+Supporting projects:
+- **Blockwave Quant Developer (2025)** — Real-time unlock calendar short strategy bot for automated trading signals.
+- **Netflix Clone (2025)** — End-to-end streaming platform replica with full backend, frontend, and AWS deployment.
+- **NLP RAG Chatbot (2024)** — Intelligent Q&A system with embedding, wiki parsing, and retrieval pipeline.
+- **오이마켓 (2024)** — Basic CRUD marketplace deployed on Elastic Beanstalk, RDS, and S3.
+- **Data Analysis (2022–2023)** — Policy impact studies using VECM/SCM and QGIS optimal location scoring.
+- **Teaching (2021–2023)** — Korean language instruction and hands-on R data analysis workshops.
 
-- **Data Analysis Projects (2022–2023)**  
-  VECM & SCM for policy impact analysis + QGIS-based optimal location scoring (hydrogen charging stations).
-
-- **Teaching & Seminars (2021–2023)**  
-  Korean language instructor + R data analysis workshops.
+Full problem definitions, solutions, architectures, impacts, and data validations → [Portfolio](https://your-notion-portfolio-link)
 
 Full project deep dives, architecture diagrams, metrics, and data validation in my [Portfolio](https://susieim.notion.site/Hi-I-m-Susie-2fb97e8748ae807a8cb0e763f2310b69).
 

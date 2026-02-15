@@ -25,10 +25,13 @@
 From full-stack Web3 experiments to refined serverless SaaS launches, each project evolves toward faster, cheaper, more secure, and truly validated problem-solving:
 
 - **Fundit (2025)**  
-  Built a Web3 insurance crowdfunding DApp where users propose policies and providers bid in auctions, automating transparent contracts and rewards (full-stack, Node + EC2 + Solidity).
+  Built a Web3 insurance crowdfunding DApp where users propose policies and providers bid in auctions, automating transparent contracts and rewards (full-stack, Node + EC2 + Solidity).  
+  **Awarded Grand Prize (1st Place) at the Base Hackathon**
 
 - **ProofIN (2025)**  
-  Created a tamper-proof rental damage assessment DApp using NFTs for immutable records, AI-assisted detection, and strict on/off-chain separation for maximum cost efficiency (Node + Lambda serverless).
+  Created a tamper-proof rental damage assessment DApp using NFTs for immutable records, AI-assisted detection, and strict on/off-chain separation for maximum cost efficiency (Node + Lambda serverless).  
+  **Awarded 3rd Prize (Excellence Award) at the RISE Startup Competition**  
+  *(Note: MVP launched as FairStay — a Web2 version to lower entry barriers and validate AI detection first; future plan includes seamless Web2 → Web3 migration for full NFT integration.)*
 
 - **SyncMe (2025)**  
   Developed a simple web mood-tracker with instant character rewards and social sharing, focusing on serverless backend speed and cost control (Java + Lambda + CI/CD).
@@ -41,7 +44,11 @@ Supporting projects:
 - **Netflix Clone (2025)** — End-to-end streaming platform replica with full backend, frontend, and AWS deployment.
 - **NLP RAG Chatbot (2024)** — Intelligent Q&A system with embedding, wiki parsing, and retrieval pipeline.
 - **오이마켓 (2024)** — Basic CRUD marketplace deployed on Elastic Beanstalk, RDS, and S3.
-- **Data Analysis (2022–2023)** — Policy impact studies using VECM/SCM and QGIS optimal location scoring.
+- **Data Analysis (2022–2023)**  
+  Policy impact studies using VECM/SCM and QGIS optimal location scoring.  
+  **Hydrogen Charging Station Optimization: Encouragement Award at National Data Mentoring Contest** (featured on National Data Map homepage)  
+  **Real Estate Regulation Impact Study: Honorable Mention at DB Financial Economics Contest**
+
 - **Teaching (2021–2023)** — Korean language instruction and hands-on R data analysis workshops.
 
 Full problem definitions, solutions, architectures, impacts, and data validations in my [Portfolio](https://susieim.notion.site/Hi-I-m-Susie-2fb97e8748ae807a8cb0e763f2310b69).

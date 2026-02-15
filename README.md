@@ -58,7 +58,6 @@ Full project deep dives, architecture diagrams, metrics, and data validation in 
 ### 🏆 GitHub Stats & Trophies
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=errorinusermane&theme=radical&hide_border=true" alt="Streak Stats" width="48%" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=errorinusermane&theme=radical&no-frame=true&margin-w=15" alt="Trophies" />
 
 
 ### 📊 Activity Graph

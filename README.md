@@ -40,7 +40,7 @@ From data-driven analysis to production-grade serverless systems:
 - **NLP RAG Chatbot (2024)**  
   Embedding + wiki parsing + retrieval pipeline for intelligent Q&A.
 
-- **오이마켓 (2024)**  
+- **OI Market (2024)**  
   CRUD application with Elastic Beanstalk / RDS / S3 deployment.
 
 - **Data Analysis Projects (2022–2023)**  
@@ -49,7 +49,7 @@ From data-driven analysis to production-grade serverless systems:
 - **Teaching & Seminars (2021–2023)**  
   Korean language instructor + R data analysis workshops.
 
-Full project deep dives, architecture diagrams, metrics, and data validation in my [Portfolio](https://your-notion-portfolio-link).
+Full project deep dives, architecture diagrams, metrics, and data validation in my [Portfolio](https://susieim.notion.site/Hi-I-m-Susie-2fb97e8748ae807a8cb0e763f2310b69).
 
 ---
 
@@ -57,15 +57,9 @@ Full project deep dives, architecture diagrams, metrics, and data validation in 
 
 ### 🏆 GitHub Stats & Trophies
 <img src="https://github-readme-stats.vercel.app/api?username=errorinusermane&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=errorinusermane&theme=radical&hide_border=true" alt="Streak Stats" width="48%" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=errorinusermane&theme=radical&no-frame=true&margin-w=15" alt="Trophies" />
 
 ### 📊 Activity Graph
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=errorinusermane&theme=react-dark&hide_border=true" alt="Activity Graph" width="80%" />
-
-### 🔝 Top Languages
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=errorinusermane&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="60%" />
 
 </div>
 

@@ -15,7 +15,7 @@
   <p>
     <a href="mailto:susie.djqan@gmail.com"><img src="https://img.shields.io/badge/Email-susie.djqan@gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
     <a href="https://www.linkedin.com/in/susie-im-8b9050270"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="https://your-notion-portfolio-link"><img src="https://img.shields.io/badge/Portfolio-Explore-orange?style=for-the-badge&logo=notion&logoColor=white" alt="Portfolio"></a>
+    <a href="https://susieim.notion.site/Hi-I-m-Susie-2fb97e8748ae807a8cb0e763f2310b69"><img src="https://img.shields.io/badge/Portfolio-Explore-orange?style=for-the-badge&logo=notion&logoColor=white" alt="Portfolio"></a>
   </p>
 </div>
 

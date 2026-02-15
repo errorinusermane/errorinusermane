@@ -56,7 +56,10 @@ Full project deep dives, architecture diagrams, metrics, and data validation in 
 <div align="center">
 
 ### 🏆 GitHub Stats & Trophies
-<img src="https://github-readme-stats.vercel.app/api?username=errorinusermane&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=errorinusermane&theme=radical&hide_border=true" alt="Streak Stats" width="48%" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=errorinusermane&theme=radical&no-frame=true&margin-w=15" alt="Trophies" />
+
 
 ### 📊 Activity Graph
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=errorinusermane&theme=react-dark&hide_border=true" alt="Activity Graph" width="80%" />

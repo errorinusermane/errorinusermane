@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Hi, I'm Susie 👋</h1>
-  <h3>Backend Launch Specialist | Bridging Economics, Stats & Cloud Systems</h3>
+  <h3>Backend Launch Specialist | Bridging Business to Cloud Systems</h3>
   
   <p>
     I turn multidisciplinary ideas into fast-deployed, scalable backends.<br>

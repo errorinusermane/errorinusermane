@@ -41,6 +41,7 @@ From full-stack Web3 experiments to refined serverless SaaS launches, each proje
 
 Supporting projects:
 - **Blockwave Quant Developer (2025)** — Real-time unlock calendar short strategy bot for automated trading signals.
+- **Ebook-to-Audio Generative AI (2025)** - Text-to-audio mapping data pipeline that extracts emotional and tonal cues from novels.
 - **Netflix Clone (2025)** — End-to-end streaming platform replica with full backend, frontend, and AWS deployment.
 - **NLP RAG Chatbot (2024)** — Intelligent Q&A system with embedding, wiki parsing, and retrieval pipeline.
 - **오이마켓 (2024)** — Basic CRUD marketplace deployed on Elastic Beanstalk, RDS, and S3.

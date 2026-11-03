@@ -25,7 +25,7 @@ Also: Claude Code (rules, stop conditions, sub-agents) · Gemini CLI/API · Hugg
 Problem: groups with mixed nationalities and currencies struggle to split shared costs. Ppang lets them settle in USDC (a dollar-pegged stablecoin) by entering only the total and the recipient.
 
 - Cut required input to two fields (total, recipient); kept the scope on settlement; moved to non-custodial (the app never holds user funds) after regulatory review
-- Wrote the spec and handoff docs (35 decisions) myself; an AI coding agent built it in 1 day of run time → 282 automated tests passed, transfers verified on Base Sepolia testnet (test network, no real money)
+- Wrote the spec and handoff docs (35 decisions) myself; an AI coding agent built it in 1 day of run time → 282 automated tests passed at the end of that run, transfers verified on Base Sepolia testnet (test network, no real money)
 - Set up a separate review agent that never saw the code; it found 2 pre-deployment violations (e.g. full wallet addresses in logs), fixed before deployment
 
 `Private repo · in progress · code walkthrough on request via Email`
@@ -39,7 +39,7 @@ Oldest first. Each project changed one thing about how I work.
 - **[SyncMe](https://github.com/ECC-2025-SyncMe/syncme-backend)** · 2025 · Team · my part: sole planner, backend
   Intent wasn't shared and dev lagged → one shared context doc from then on.
 - **ProofIN** ([backend](https://github.com/ProofINer/proofin_backend) · MVP as FairStay: [backend](https://github.com/FairStayer/fairstay_mvp_backend)) · 2025–2026 · Team · my part: idea, smart contracts, backend, deployment
-  Reframed the problem as tenants' fear of losing deposits; re-aligned team goals, meetings 2–3 h → under 30 min. Excellence Award, RISE 2025.
+  Reframed the problem as tenants' fear of losing deposits; re-aligned team goals, meetings 2–3 h → under 30 min each. Excellence Award, RISE 2025.
 - **Automation system** · 2026 · Personal · `Private · walkthrough on request via Email`
   A backtest look-ahead bug caused live losses → added a pre-deployment validation step, dry-run mode and OIDC deploys.
 
@@ -66,7 +66,7 @@ Ppang uses all four: plan first, one context doc, a reframed problem, validation
 문제: 국적·통화가 다른 그룹은 함께 쓴 돈을 나누기 어려움. Ppang은 금액과 받는 사람만 입력해 USDC(달러 연동 스테이블코인)로 나눠 냄
 
 - 필요한 입력을 '전체 금액·받는 사람' 2개로 축소, 정산 범위 유지, 규제 검토 후 수탁 → 비수탁 구조(앱이 사용자 돈을 맡지 않음)로 전환
-- spec·개발 이관 문서(결정 기록 35건) 작성은 직접, 구현은 개발 AI 실행 1일 → 자동 테스트 282개 통과, Base Sepolia 테스트넷(실제 돈이 오가지 않는 시험망) 송금 검증
+- spec·개발 이관 문서(결정 기록 35건) 작성은 직접, 구현은 개발 AI 실행 1일 → 실행 종료 시점 자동 테스트 282개 통과, Base Sepolia 테스트넷(실제 돈이 오가지 않는 시험망) 송금 검증
 - 코드를 보지 않은 별도 검토 에이전트를 두어 로그 지갑 주소 노출 등 배포 전 위반 2건 발견, 배포 전 수정
 
 `비공개 저장소 · 작업 중 · 코드는 이메일로 요청하면 화면으로 설명`
@@ -80,7 +80,7 @@ Ppang uses all four: plan first, one context doc, a reframed problem, validation
 - **[SyncMe](https://github.com/ECC-2025-SyncMe/syncme-backend)** · 2025 · 팀 · 담당: 기획 단독·백엔드
   기획 의도 미공유로 개발 지연 → 이후 맥락을 담은 단일 문서로 공유
 - **ProofIN** ([백엔드](https://github.com/ProofINer/proofin_backend) · MVP 이름 FairStay: [백엔드](https://github.com/FairStayer/fairstay_mvp_backend)) · 2025–2026 · 팀 · 담당: 아이디어·컨트랙트·백엔드·배포
-  문제를 '보증금이 깎일까 봐 불안함'으로 재정의, 팀 목표 재정렬 후 회의 2~3시간 → 30분 이내. RISE 2025 우수상
+  문제를 '보증금이 깎일까 봐 불안함'으로 재정의, 팀 목표 재정렬 후 회의 1회 2~3시간 → 30분 이내. RISE 2025 우수상
 - **자동화 시스템** · 2026 · 개인 · `비공개 · 이메일로 요청하면 화면으로 설명`
   백테스트 미래 데이터 참조로 실거래 손실 → 배포 전 검증 단계, 모의 실행(DRY_RUN), OIDC 배포 도입
 

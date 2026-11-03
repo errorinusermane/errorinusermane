@@ -17,6 +17,7 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.SNAKE_TOKEN }}   # 비공개 기여까지 읽도록 개인 토큰(read:user) 사용
           # 시안 A · 남색 단계 (디자인 가이드 「톱니」): 잔디는 옅은 남색 → navy 한 색으로 진해지고, 뱀은 orange
           outputs: |
             dist/snake-light.svg?color_snake=#E0793C&color_dots=#EFEBE2,#D6DEEB,#9DB0D0,#4D6A9C,#2E4A7D

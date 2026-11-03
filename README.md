@@ -13,9 +13,9 @@ Most recently I built Ppang: 2 months of planning, then 1 day of AI-driven imple
 
 [Email](mailto:susie.djqan@gmail.com) · [LinkedIn](https://www.linkedin.com/in/susie-im-8b9050270) · [Deck (PDF)](https://github.com/errorinusermane/errorinusermane/blob/main/docs/Deck_SusieIm.pdf) · [Resume (EN)](https://github.com/errorinusermane/errorinusermane/blob/main/docs/Resume_SusieIm_EN.pdf) · [이력서 (KR)](https://github.com/errorinusermane/errorinusermane/blob/main/docs/Resume_SusieIm_KR.pdf)
 
-<img src="https://skillicons.dev/icons?i=nodejs,ts,java,spring,py,supabase,aws,docker,githubactions,solidity&perline=10" alt="Node.js, TypeScript, Java, Spring, Python, Supabase, AWS, Docker, GitHub Actions, Solidity">
+<img src="https://skillicons.dev/icons?i=java,spring,py,supabase,aws,docker,githubactions,solidity&perline=10" alt="Java, Spring, Python, Supabase, AWS, Docker, GitHub Actions, Solidity">
 
-Also: Claude Code (rules, stop conditions, sub-agents) · Gemini CLI/API · Hugging Face · Hardhat (hackathon MVP stage) · Base Sepolia
+Also: Node.js · Claude Code (rules, stop conditions, sub-agents) · Gemini CLI/API · Hugging Face · Hardhat (hackathon MVP stage) · Base Sepolia
 
 **Public code to start with:** [ProofIN backend](https://github.com/ProofINer/proofin_backend) — idea, smart contracts, backend and deployment in one project.
 
@@ -56,7 +56,7 @@ Ppang uses all four: plan first, one context doc, a reframed problem, validation
 일을 왜 하는지 먼저 정하고, 내 직무가 아닌 방식까지 직접 써 본 뒤 맞는 것만 골라 문서로 남깁니다.
 최근 정산 앱 Ppang을 2개월 기획한 뒤, 개발 AI로 하루 만에 구현해 테스트넷 송금까지 확인했습니다.
 
-**기술** Node.js · TypeScript · Java Spring · Python · Supabase · AWS · Docker · GitHub Actions(OIDC) · Solidity·Hardhat(해커톤 MVP 단계) · Base Sepolia · Claude Code(규칙 파일·중단 조건·서브 에이전트 검수) · Gemini CLI/API · Hugging Face
+**기술** Node.js · Java Spring · Python · Supabase · AWS · Docker · GitHub Actions(OIDC) · Solidity·Hardhat(해커톤 MVP 단계) · Base Sepolia · Claude Code(규칙 파일·중단 조건·서브 에이전트 검수) · Gemini CLI/API · Hugging Face
 
 **먼저 볼 코드:** [ProofIN 백엔드](https://github.com/ProofINer/proofin_backend) — 아이디어·컨트랙트·백엔드·배포를 한 프로젝트에서 맡음
 

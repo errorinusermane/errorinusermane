@@ -26,7 +26,7 @@ Problem: groups with mixed nationalities and currencies struggle to split shared
 
 - Cut required input to two fields (total, recipient); kept the scope on settlement; moved to non-custodial (the app never holds user funds) after regulatory review
 - Wrote the spec and handoff docs (35 decisions) myself; an AI coding agent built it in 1 day of run time → 282 automated tests passed at the end of that run, transfers verified on Base Sepolia testnet (test network, no real money)
-- Set up a separate review agent that never saw the code; it found 2 pre-deployment violations (e.g. full wallet addresses in logs), fixed before deployment
+- Set up a review agent kept separate from the build; it found 2 pre-deployment violations (e.g. full wallet addresses in logs), fixed before deployment
 
 `Private repo · in progress · code walkthrough on request via Email`
 
@@ -67,7 +67,7 @@ Ppang uses all four: plan first, one context doc, a reframed problem, validation
 
 - 필요한 입력을 '전체 금액·받는 사람' 2개로 축소, 정산 범위 유지, 규제 검토 후 수탁 → 비수탁 구조(앱이 사용자 돈을 맡지 않음)로 전환
 - spec·개발 이관 문서(결정 기록 35건) 작성은 직접, 구현은 개발 AI 실행 1일 → 실행 종료 시점 자동 테스트 282개 통과, Base Sepolia 테스트넷(실제 돈이 오가지 않는 시험망) 송금 검증
-- 코드를 보지 않은 별도 검토 에이전트를 두어 로그 지갑 주소 노출 등 배포 전 위반 2건 발견, 배포 전 수정
+- 구현과 분리된 별도 검토 에이전트를 두어 로그 지갑 주소 노출 등 배포 전 위반 2건 발견, 배포 전 수정
 
 `비공개 저장소 · 작업 중 · 코드는 이메일로 요청하면 화면으로 설명`
 

@@ -11,7 +11,7 @@ I'm an AX engineer who has worked as both planner and developer: I define the pr
 I start by defining why the work matters, try methods from outside my role, keep what fits and document it for the next person.
 Most recently I built Ppang: 2 months of planning, then 1 day of AI-driven implementation.
 
-[Email](mailto:susie.djqan@gmail.com) · [LinkedIn](https://www.linkedin.com/in/susie-im-8b9050270) · [Deck (PDF)](docs/Deck_SusieIm.pdf) · [Resume (EN)](docs/Resume_SusieIm_EN.pdf) · [이력서 (KR)](docs/Resume_SusieIm_KR.pdf)
+[Email](mailto:susie.djqan@gmail.com) · [LinkedIn](https://www.linkedin.com/in/susie-im-8b9050270) · [Deck (PDF)](https://github.com/errorinusermane/errorinusermane/blob/main/docs/Deck_SusieIm.pdf) · [Resume (EN)](https://github.com/errorinusermane/errorinusermane/blob/main/docs/Resume_SusieIm_EN.pdf) · [이력서 (KR)](https://github.com/errorinusermane/errorinusermane/blob/main/docs/Resume_SusieIm_KR.pdf)
 
 <img src="https://skillicons.dev/icons?i=nodejs,ts,java,spring,py,supabase,aws,docker,githubactions,solidity&perline=10" alt="Node.js, TypeScript, Java, Spring, Python, Supabase, AWS, Docker, GitHub Actions, Solidity">
 

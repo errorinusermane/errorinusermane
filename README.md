@@ -58,12 +58,12 @@ Ppang uses all four: plan first, a reframed problem, one context doc, validation
 
 **기술** Node.js · Java Spring · Python · Supabase · AWS · Docker · GitHub Actions(OIDC) · Solidity·Hardhat(해커톤 MVP 단계) · Base Sepolia · Claude Code(규칙 파일·중단 조건·서브 에이전트 검수) · Gemini CLI/API · Hugging Face
 
-**먼저 볼 코드:** ProofIN — [스마트컨트랙트](https://github.com/ProofINer/proofin_contracts)(Solidity·Hardhat), [백엔드](https://github.com/ProofINer/proofin_backend)(Node.js·AWS Lambda), 두 저장소 모두 직접 작성. 입주 때 집 상태 기록을 NFT로 민팅
+**먼저 볼 코드:** ProofIN — [스마트컨트랙트](https://github.com/ProofINer/proofin_contracts)(Solidity·Hardhat), [백엔드](https://github.com/ProofINer/proofin_backend)(Node.js·AWS Lambda). 두 저장소 모두 직접 작성했고, 입주 때 집 상태 기록을 NFT로 민팅합니다.
 
 ### 현재 — Ppang
 
 **다국적 그룹 정산 앱** · 기획·개발 1인 · 2026.08–현재
-문제: 국적·통화가 다른 그룹은 함께 쓴 돈을 나누기 어려움. Ppang은 금액과 받는 사람만 입력해 USDC(달러 연동 스테이블코인)로 나눠 냄
+문제: 국적·통화가 다른 그룹은 함께 쓴 돈을 나누기 어렵습니다. Ppang은 금액과 받는 사람만 입력해 USDC(달러 연동 스테이블코인)로 나눠 냅니다.
 
 - 필요한 입력을 '전체 금액·받는 사람' 2개로 축소, 정산 범위 유지, 규제 검토 후 수탁 → 비수탁 구조(앱이 사용자 돈을 맡지 않음)로 전환
 - spec·개발 이관 문서(결정 기록 35건) 작성은 직접, 구현은 개발 AI 실행 1일 → 실행 종료 시점 자동 테스트 282개 통과, Base Sepolia 테스트넷(실제 돈이 오가지 않는 시험망) 이체 검증
@@ -72,8 +72,6 @@ Ppang uses all four: plan first, a reframed problem, one context doc, validation
 `비공개 저장소 · 작업 중 · 코드는 이메일로 요청하면 화면으로 설명`
 
 ### 방식이 만들어진 과정
-
-오래된 순서. 프로젝트마다 일하는 방식 하나를 바꿈.
 
 - **[Fundit](https://github.com/errorinusermane/fundit-dapp)** · 2025 · 팀 · 담당: 스마트컨트랙트·백엔드·앱
   협업 체계 없이 기획 전 개발이 먼저 진행돼 팀의 서비스 이해가 갈림 → 기획 확정 후 개발로 순서 변경. BNB Chain 아이디어톤 대상
@@ -84,7 +82,7 @@ Ppang uses all four: plan first, a reframed problem, one context doc, validation
 - **자동화 시스템** · 2026 · 개인 · `비공개 · 이메일로 요청하면 화면으로 설명`
   백테스트 미래 데이터 참조로 실거래 손실 → 배포 전 검증 단계, 모의 실행(DRY_RUN), OIDC 배포 도입
 
-Ppang에 네 가지 모두 적용: 기획 먼저, 문제 재정의, 단일 문서, 배포 전 검증.
+Ppang에는 위 네 가지를 모두 적용했습니다: 기획 먼저, 문제 재정의, 단일 문서, 배포 전 검증.
 
 </details>
 

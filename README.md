@@ -36,14 +36,14 @@ Oldest first. Each project changed one thing about how I work.
 
 - **[Fundit](https://github.com/errorinusermane/fundit-dapp)** · 2025 · Team · my part: smart contracts, backend, app
   No shared process; dev began before planning and the team's views of the service diverged → plan first, then build. Grand Prize, BNB Chain Ideathon.
-- **[SyncMe](https://github.com/ECC-2025-SyncMe/syncme-backend)** · 2025 · Team · my part: sole planner, backend
-  Intent wasn't shared and dev lagged → one shared context doc from then on.
 - **ProofIN** ([contracts](https://github.com/ProofINer/proofin_contracts) · [backend](https://github.com/ProofINer/proofin_backend) · MVP as FairStay: [backend](https://github.com/FairStayer/fairstay_mvp_backend)) · 2025–2026 · Team · my part: idea, smart contracts, backend, deployment
   Reframed the problem as tenants' fear of losing deposits; re-aligned team goals, meetings 2–3 h → under 30 min each. Excellence Award, RISE 2025.
+- **[SyncMe](https://github.com/ECC-2025-SyncMe/syncme-backend)** · 2026 · Team · my part: sole planner, backend
+  Intent wasn't shared and dev lagged → one shared context doc from then on.
 - **Automation system** · 2026 · Personal · `Private · walkthrough on request via Email`
   A backtest look-ahead bug caused live losses → added a pre-deployment validation step, dry-run mode and OIDC deploys.
 
-Ppang uses all four: plan first, one context doc, a reframed problem, validation before deployment.
+Ppang uses all four: plan first, a reframed problem, one context doc, validation before deployment.
 
 <details>
 <summary><b>한국어로 보기</b></summary>
@@ -54,7 +54,7 @@ Ppang uses all four: plan first, one context doc, a reframed problem, validation
 
 기획과 개발을 모두 맡아 본 AX 엔지니어 임수지입니다.
 일을 왜 하는지 먼저 정하고, 내 직무가 아닌 방식까지 직접 써 본 뒤 맞는 것만 골라 문서로 남깁니다.
-최근 정산 앱 Ppang을 2개월 기획한 뒤, 개발 AI로 하루 만에 구현해 테스트넷 송금까지 확인했습니다.
+최근 정산 앱 Ppang을 2개월 기획한 뒤, 개발 AI로 하루 만에 구현해 테스트넷 이체까지 확인했습니다.
 
 **기술** Node.js · Java Spring · Python · Supabase · AWS · Docker · GitHub Actions(OIDC) · Solidity·Hardhat(해커톤 MVP 단계) · Base Sepolia · Claude Code(규칙 파일·중단 조건·서브 에이전트 검수) · Gemini CLI/API · Hugging Face
 
@@ -66,7 +66,7 @@ Ppang uses all four: plan first, one context doc, a reframed problem, validation
 문제: 국적·통화가 다른 그룹은 함께 쓴 돈을 나누기 어려움. Ppang은 금액과 받는 사람만 입력해 USDC(달러 연동 스테이블코인)로 나눠 냄
 
 - 필요한 입력을 '전체 금액·받는 사람' 2개로 축소, 정산 범위 유지, 규제 검토 후 수탁 → 비수탁 구조(앱이 사용자 돈을 맡지 않음)로 전환
-- spec·개발 이관 문서(결정 기록 35건) 작성은 직접, 구현은 개발 AI 실행 1일 → 실행 종료 시점 자동 테스트 282개 통과, Base Sepolia 테스트넷(실제 돈이 오가지 않는 시험망) 송금 검증
+- spec·개발 이관 문서(결정 기록 35건) 작성은 직접, 구현은 개발 AI 실행 1일 → 실행 종료 시점 자동 테스트 282개 통과, Base Sepolia 테스트넷(실제 돈이 오가지 않는 시험망) 이체 검증
 - 구현과 분리된 별도 검토 에이전트를 두어 로그 지갑 주소 노출 등 배포 전 위반 2건 발견, 배포 전 수정
 
 `비공개 저장소 · 작업 중 · 코드는 이메일로 요청하면 화면으로 설명`
@@ -77,14 +77,14 @@ Ppang uses all four: plan first, one context doc, a reframed problem, validation
 
 - **[Fundit](https://github.com/errorinusermane/fundit-dapp)** · 2025 · 팀 · 담당: 스마트컨트랙트·백엔드·앱
   협업 체계 없이 기획 전 개발이 먼저 진행돼 팀의 서비스 이해가 갈림 → 기획 확정 후 개발로 순서 변경. BNB Chain 아이디어톤 대상
-- **[SyncMe](https://github.com/ECC-2025-SyncMe/syncme-backend)** · 2025 · 팀 · 담당: 기획 단독·백엔드
-  기획 의도 미공유로 개발 지연 → 이후 맥락을 담은 단일 문서로 공유
 - **ProofIN** ([컨트랙트](https://github.com/ProofINer/proofin_contracts) · [백엔드](https://github.com/ProofINer/proofin_backend) · MVP 이름 FairStay: [백엔드](https://github.com/FairStayer/fairstay_mvp_backend)) · 2025–2026 · 팀 · 담당: 아이디어·컨트랙트·백엔드·배포
   문제를 '보증금이 깎일까 봐 불안함'으로 재정의, 팀 목표 재정렬 후 회의 1회 2~3시간 → 30분 이내. RISE 2025 우수상
+- **[SyncMe](https://github.com/ECC-2025-SyncMe/syncme-backend)** · 2026 · 팀 · 담당: 기획 단독·백엔드
+  기획 의도 미공유로 개발 지연 → 이후 맥락을 담은 단일 문서로 공유
 - **자동화 시스템** · 2026 · 개인 · `비공개 · 이메일로 요청하면 화면으로 설명`
   백테스트 미래 데이터 참조로 실거래 손실 → 배포 전 검증 단계, 모의 실행(DRY_RUN), OIDC 배포 도입
 
-Ppang에 네 가지 모두 적용: 기획 먼저, 단일 문서, 문제 재정의, 배포 전 검증.
+Ppang에 네 가지 모두 적용: 기획 먼저, 문제 재정의, 단일 문서, 배포 전 검증.
 
 </details>
 

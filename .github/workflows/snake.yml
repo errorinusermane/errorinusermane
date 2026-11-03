@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: "0 15 * * *"   # 매일 00:00 (서울)
   workflow_dispatch:        # Actions 탭에서 바로 돌려 볼 수 있음
+  push:                    # 이 파일을 고쳐 main에 올리면 바로 다시 그림
+    branches: [main]
+    paths: [".github/workflows/snake.yml"]
 
 jobs:
   generate:

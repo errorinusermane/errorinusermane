@@ -1,76 +1,96 @@
-<div align="center">
-  <h1>Hi, I'm Susie 👋</h1>
-  <h3>Backend Launch Specialist | Bridging Business to Cloud Systems</h3>
-  
-  <p>
-    I turn multidisciplinary ideas into fast-deployed, scalable backends.<br>
-    <strong>Launch First, Optimize Fast</strong>: Define problems clearly → Deploy serverless architectures → Iterate on real constraints (cost, latency, security).
-  </p>
+# Susie Im · 임수지
 
-  <p>
-    Currently seeking a 3-month internship in Europe (Málaga, Spain focus) — ready to relocate & start immediately.<br>
-    Let's build velocity together!
-  </p>
+**AX Engineer (AI Transformation Engineer)**
 
-  <p>
-    <a href="mailto:susie.djqan@gmail.com"><img src="https://img.shields.io/badge/Email-susie.djqan@gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-    <a href="https://www.linkedin.com/in/susie-im-8b9050270"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="https://susieim.notion.site/Hi-I-m-Susie-2fb97e8748ae807a8cb0e763f2310b69"><img src="https://img.shields.io/badge/Portfolio-Explore-orange?style=for-the-badge&logo=notion&logoColor=white" alt="Portfolio"></a>
-  </p>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=20&duration=2400&color=D6DEEB&vCenter=true&width=420&lines=Clear+purpose%2C+bold+methods.&repeat=false">
+  <img alt="Clear purpose, bold methods." src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=20&duration=2400&color=2E4A7D&vCenter=true&width=420&lines=Clear+purpose%2C+bold+methods.&repeat=false">
+</picture>
 
----
+I'm an AX engineer who has worked as both planner and developer: I define the problem, write the spec, and build it with AI coding agents.
+I start by defining why the work matters, try methods from outside my role, keep what fits and document it for the next person.
+Most recently I built Ppang: 2 months of planning, then 1 day of AI-driven implementation.
 
-### 🌟 My Evolution & Key Projects
-From full-stack Web3 experiments to refined serverless SaaS launches, each project evolves toward faster, cheaper, more secure, and truly validated problem-solving:
+[Email](mailto:susie.djqan@gmail.com) · [LinkedIn](https://www.linkedin.com/in/susie-im-8b9050270) · [Deck (PDF)](docs/Deck_SusieIm.pdf) · [Resume (EN)](docs/Resume_SusieIm_EN.pdf) · [이력서 (KR)](docs/Resume_SusieIm_KR.pdf)
 
-- **Fundit (2025)**  
-  Built a Web3 insurance crowdfunding DApp where users propose policies and providers bid in auctions, automating transparent contracts and rewards (full-stack, Node + EC2 + Solidity).  
-  **Awarded Grand Prize (1st Place) at the Base Hackathon**
+<img src="https://skillicons.dev/icons?i=nodejs,ts,java,spring,py,supabase,aws,docker,githubactions,solidity&perline=10" alt="Node.js, TypeScript, Java, Spring, Python, Supabase, AWS, Docker, GitHub Actions, Solidity">
 
-- **ProofIN (2025)**  
-  Created a tamper-proof rental damage assessment DApp using NFTs for immutable records, AI-assisted detection, and strict on/off-chain separation for maximum cost efficiency (Node + Lambda serverless).  
-  **Awarded 3rd Prize (Excellence Award) at the RISE Startup Competition**  
-  *(Note: MVP launched as FairStay — a Web2 version to lower entry barriers and validate AI detection first; future plan includes seamless Web2 → Web3 migration for full NFT integration.)*
+Also: Claude Code (rules, stop conditions, sub-agents) · Gemini CLI/API · Hugging Face · Hardhat (hackathon MVP stage) · Base Sepolia
 
-- **SyncMe (2025)**  
-  Developed a simple web mood-tracker with instant character rewards and social sharing, focusing on serverless backend speed and cost control (Java + Lambda + CI/CD).
+**Public code to start with:** [ProofIN backend](https://github.com/ProofINer/proofin_backend) — idea, smart contracts, backend and deployment in one project.
 
-- **Chronos (Ongoing)**  
-  Launched a secure, local browser-based file converter that eliminates uploads, ads, and decisions, validated end-to-end with full server + client dashboards (Node + Lambda + OIDC).
+## Now — Ppang
 
-Supporting projects:
-- **Blockwave Quant Developer (2025)** — Real-time unlock calendar short strategy bot for automated trading signals.
-- **Ebook-to-Audio Generative AI (2025)** - Text-to-audio mapping data pipeline that extracts emotional and tonal cues from novels.
-- **Netflix Clone (2025)** — End-to-end streaming platform replica with full backend, frontend, and AWS deployment.
-- **NLP RAG Chatbot (2024)** — Intelligent Q&A system with embedding, wiki parsing, and retrieval pipeline.
-- **오이마켓 (2024)** — Basic CRUD marketplace deployed on Elastic Beanstalk, RDS, and S3.
-- **Data Analysis (2022–2023)**  
-  Policy impact studies using VECM/SCM and QGIS optimal location scoring.  
-  **Hydrogen Charging Station Optimization: Encouragement Award at National Data Mentoring Contest** (featured on National Data Map homepage)  
-  **Real Estate Regulation Impact Study: Honorable Mention at DB Financial Economics Contest**
+**Cross-border group settlement app** · Solo, planning & development · Aug 2026–present
+Problem: groups with mixed nationalities and currencies struggle to split shared costs. Ppang lets them settle in USDC (a dollar-pegged stablecoin) by entering only the total and the recipient.
 
-- **Teaching (2021–2023)** — Korean language instruction and hands-on R data analysis workshops.
+- Cut required input to two fields (total, recipient); kept the scope on settlement; moved to non-custodial (the app never holds user funds) after regulatory review
+- Wrote the spec and handoff docs (35 decisions) myself; an AI coding agent built it in 1 day of run time → 282 automated tests passed, transfers verified on Base Sepolia testnet (test network, no real money)
+- Set up a separate review agent that never saw the code; it found 2 pre-deployment violations (e.g. full wallet addresses in logs), fixed before deployment
 
-Full problem definitions, solutions, architectures, impacts, and data validations in my [Portfolio](https://susieim.notion.site/Hi-I-m-Susie-2fb97e8748ae807a8cb0e763f2310b69).
+`Private repo · in progress · code walkthrough on request via Email`
 
----
+## How the method was built
 
-<div align="center">
+Oldest first. Each project changed one thing about how I work.
 
-### 🏆 GitHub Stats & Trophies
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=errorinusermane&theme=radical&hide_border=true" alt="Streak Stats" width="48%" />
+- **[Fundit](https://github.com/errorinusermane/fundit-dapp)** · 2025 · Team · my part: smart contracts, backend, app
+  No shared process; dev began before planning and the team's views of the service diverged → plan first, then build. Grand Prize, BNB Chain Ideathon.
+- **[SyncMe](https://github.com/ECC-2025-SyncMe/syncme-backend)** · 2025 · Team · my part: sole planner, backend
+  Intent wasn't shared and dev lagged → one shared context doc from then on.
+- **ProofIN** ([backend](https://github.com/ProofINer/proofin_backend) · MVP as FairStay: [backend](https://github.com/FairStayer/fairstay_mvp_backend)) · 2025–2026 · Team · my part: idea, smart contracts, backend, deployment
+  Reframed the problem as tenants' fear of losing deposits; re-aligned team goals, meetings 2–3 h → under 30 min. Excellence Award, RISE 2025.
+- **Automation system** · 2026 · Personal · `Private · walkthrough on request via Email`
+  A backtest look-ahead bug caused live losses → added a pre-deployment validation step, dry-run mode and OIDC deploys.
 
+Ppang uses all four: plan first, one context doc, a reframed problem, validation before deployment.
 
+<details>
+<summary><b>한국어로 보기</b></summary>
 
-### 📊 Activity Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=errorinusermane&theme=react-dark&hide_border=true" alt="Activity Graph" width="80%" />
+<br>
 
-</div>
+**AX 엔지니어 · 목적은 분명하게, 방법은 과감하게.**
 
----
+기획과 개발을 모두 맡아 본 AX 엔지니어 임수지입니다.
+일을 왜 하는지 먼저 정하고, 내 직무가 아닌 방식까지 직접 써 본 뒤 맞는 것만 골라 문서로 남깁니다.
+최근 정산 앱 Ppang을 2개월 기획한 뒤, 개발 AI로 하루 만에 구현해 테스트넷 송금까지 확인했습니다.
 
-<div align="center">
-  <h3>🚀 Open to velocity-driven collaborations</h3>
-  <p>Reach out on LinkedIn or email — excited to connect with builders in cloud, backend, Web3, and data-driven systems!</p>
-</div>
+**기술** Node.js · TypeScript · Java Spring · Python · Supabase · AWS · Docker · GitHub Actions(OIDC) · Solidity·Hardhat(해커톤 MVP 단계) · Base Sepolia · Claude Code(규칙 파일·중단 조건·서브 에이전트 검수) · Gemini CLI/API · Hugging Face
+
+**먼저 볼 코드:** [ProofIN 백엔드](https://github.com/ProofINer/proofin_backend) — 아이디어·컨트랙트·백엔드·배포를 한 프로젝트에서 맡음
+
+### 지금 — Ppang
+
+**다국적 그룹 정산 앱** · 기획·개발 1인 · 2026.08–현재
+문제: 국적·통화가 다른 그룹은 함께 쓴 돈을 나누기 어려움. Ppang은 금액과 받는 사람만 입력해 USDC(달러 연동 스테이블코인)로 나눠 냄
+
+- 필요한 입력을 '전체 금액·받는 사람' 2개로 축소, 정산 범위 유지, 규제 검토 후 수탁 → 비수탁 구조(앱이 사용자 돈을 맡지 않음)로 전환
+- spec·개발 이관 문서(결정 기록 35건) 작성은 직접, 구현은 개발 AI 실행 1일 → 자동 테스트 282개 통과, Base Sepolia 테스트넷(실제 돈이 오가지 않는 시험망) 송금 검증
+- 코드를 보지 않은 별도 검토 에이전트를 두어 로그 지갑 주소 노출 등 배포 전 위반 2건 발견, 배포 전 수정
+
+`비공개 저장소 · 작업 중 · 코드는 이메일로 요청하면 화면으로 설명`
+
+### 방식이 만들어진 과정
+
+오래된 순서. 프로젝트마다 일하는 방식 하나를 바꿈.
+
+- **[Fundit](https://github.com/errorinusermane/fundit-dapp)** · 2025 · 팀 · 담당: 스마트컨트랙트·백엔드·앱
+  협업 체계 없이 기획 전 개발이 먼저 진행돼 팀의 서비스 이해가 갈림 → 기획 확정 후 개발로 순서 변경. BNB Chain 아이디어톤 대상
+- **[SyncMe](https://github.com/ECC-2025-SyncMe/syncme-backend)** · 2025 · 팀 · 담당: 기획 단독·백엔드
+  기획 의도 미공유로 개발 지연 → 이후 맥락을 담은 단일 문서로 공유
+- **ProofIN** ([백엔드](https://github.com/ProofINer/proofin_backend) · MVP 이름 FairStay: [백엔드](https://github.com/FairStayer/fairstay_mvp_backend)) · 2025–2026 · 팀 · 담당: 아이디어·컨트랙트·백엔드·배포
+  문제를 '보증금이 깎일까 봐 불안함'으로 재정의, 팀 목표 재정렬 후 회의 2~3시간 → 30분 이내. RISE 2025 우수상
+- **자동화 시스템** · 2026 · 개인 · `비공개 · 이메일로 요청하면 화면으로 설명`
+  백테스트 미래 데이터 참조로 실거래 손실 → 배포 전 검증 단계, 모의 실행(DRY_RUN), OIDC 배포 도입
+
+Ppang에 네 가지 모두 적용: 기획 먼저, 단일 문서, 문제 재정의, 배포 전 검증.
+
+</details>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/errorinusermane/errorinusermane/output/snake-dark.svg">
+  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/errorinusermane/errorinusermane/output/snake-light.svg">
+</picture>

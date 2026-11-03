@@ -28,8 +28,6 @@ Problem: groups with mixed nationalities and currencies struggle to split shared
 - Wrote the spec and handoff docs (35 decisions) myself; an AI coding agent built it in 1 day of run time → 282 automated tests passed at the end of that run, transfers verified on Base Sepolia testnet (test network, no real money)
 - Set up a review agent kept separate from the build; it found 2 pre-deployment violations (e.g. full wallet addresses in logs), fixed before deployment
 
-`Private repo · in progress · code walkthrough on request via Email`
-
 ## How the method was built
 
 Oldest first. Each project changed one thing about how I work.
@@ -40,7 +38,7 @@ Oldest first. Each project changed one thing about how I work.
   Reframed the problem as tenants' fear of losing deposits; re-aligned team goals, meetings 2–3 h → under 30 min each. Excellence Award, RISE 2025.
 - **[SyncMe](https://github.com/ECC-2025-SyncMe/syncme-backend)** · 2026 · Team · my part: sole planner, backend
   Intent wasn't shared and dev lagged → one shared context doc from then on.
-- **Automation system** · 2026 · Personal · `Private · walkthrough on request via Email`
+- **Automation system** · 2026 · Personal
   A backtest look-ahead bug caused live losses → added a pre-deployment validation step, dry-run mode and OIDC deploys.
 
 Ppang uses all four: plan first, a reframed problem, one context doc, validation before deployment.
@@ -77,7 +75,7 @@ Ppang uses all four: plan first, a reframed problem, one context doc, validation
   문제를 '보증금이 깎일까 봐 불안함'으로 재정의, 팀 목표 재정렬 후 회의 1회 2~3시간 → 30분 이내. RISE 2025 우수상
 - **[SyncMe](https://github.com/ECC-2025-SyncMe/syncme-backend)** · 2026 · 팀 · 담당: 기획 단독·백엔드
   기획 의도 미공유로 개발 지연 → 이후 맥락을 담은 단일 문서로 공유
-- **자동화 시스템** · 2026 · 개인 · `비공개 · 이메일로 요청하면 화면으로 설명`
+- **자동화 시스템** · 2026 · 개인
   백테스트 미래 데이터 참조로 실거래 손실 → 배포 전 검증 단계, 모의 실행(DRY_RUN), OIDC 배포 도입
 
 Ppang에는 위 네 가지를 모두 적용했습니다: 기획 먼저, 문제 재정의, 단일 문서, 배포 전 검증.

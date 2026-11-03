@@ -69,8 +69,6 @@ Ppang uses all four: plan first, a reframed problem, one context doc, validation
 - spec·개발 이관 문서(결정 기록 35건) 작성은 직접, 구현은 개발 AI 실행 1일 → 실행 종료 시점 자동 테스트 282개 통과, Base Sepolia 테스트넷(실제 돈이 오가지 않는 시험망) 이체 검증
 - 구현과 분리된 별도 검토 에이전트를 두어 로그 지갑 주소 노출 등 배포 전 위반 2건 발견, 배포 전 수정
 
-`비공개 저장소 · 작업 중 · 코드는 이메일로 요청하면 화면으로 설명`
-
 ### 방식이 만들어진 과정
 
 - **[Fundit](https://github.com/errorinusermane/fundit-dapp)** · 2025 · 팀 · 담당: 스마트컨트랙트·백엔드·앱
